@@ -5,11 +5,11 @@ npm package just for fun
 gim <command> [option]
 
 ## Command
-help: Print kambing info`
-mula:Bina git
+help: Print kambing info__
+mula:Bina git__
 status:Semak status perubahan
-laku: Sahkan perubahan, contoh: [ laku -- -m "laku pertama" ]
-cari: Cari perubahan terbaru
-tarik: Tarik perubahan terbaru
-tolak: Hantar laku, contoh: [ hantar -- -u asal main ]
-asing: Tambah asal, contoh: [ asing tambah asal http://github.com/projek1.git ]
+laku: Sahkan perubahan, contoh: [ laku -- -m "laku pertama" ]__
+cari: Cari perubahan terbaru__
+tarik: Tarik perubahan terbaru__
+tolak: Hantar laku, contoh: [ hantar -- -u asal main ]__
+asing: Tambah asal, contoh: [ asing tambah asal http://github.com/projek1.git ]__
