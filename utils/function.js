@@ -24,10 +24,11 @@ const add = data => {
 };
 
 const commit = data => {
-	if (data[1] == '-m') {
-		runCommand(`laku -m ${data[2]}`);
+    console.log(data);
+	if (data[1] == "-m") {
+		runCommand(`commit -m "${data[2]}"`);
 	} else {
-		console.log('Sila letak [-m] untuk tanda mesej');
+		console.log('Sila letak [-- -m "mesej anda"] untuk tanda mesej');
 	}
 	console.log('commit called !');
 };
@@ -39,10 +40,12 @@ const pull = data => {
 
 const push = data => {
 	if (data[1] == '-u') {
-		if (data[2] == 'origin') {
+		if (data[2] == 'asal') {
 			runCommand(`push -u origin ${data[3]}`);
-		}
-	}
+		} 
+	} else {
+        runCommand('push')
+    }
 	console.log('push called !');
 };
 
