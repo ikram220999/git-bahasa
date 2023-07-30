@@ -1,7 +1,7 @@
 {
 	"name": "git-melayu",
 	"description": "Git bahasa melayu",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"license": "UNLICENSED",
 	"bin": {
 		"git-melayu": "index.js",
