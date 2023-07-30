@@ -30,12 +30,12 @@ const commit = data => {
 	} else {
 		console.log('Sila letak [-- -m "mesej anda"] untuk tanda mesej');
 	}
-	console.log('commit called !');
+	// console.log('commit called !');
 };
 
 const pull = data => {
 	runCommand('pull');
-	console.log('pull called !');
+	// console.log('pull called !');
 };
 
 const push = data => {
@@ -46,12 +46,12 @@ const push = data => {
 	} else {
         runCommand('push')
     }
-	console.log('push called !');
+	// console.log('push called !');
 };
 
 const fetch = data => {
 	runCommand('fetch');
-	console.log('fetch called !');
+	// console.log('fetch called !');
 };
 
 const remote = data => {
@@ -60,12 +60,12 @@ const remote = data => {
 			runCommand(`remote add origin ${data[3]}`);
 		}
 	}
-	console.log('remote called !');
+	// console.log('remote called !');
 };
 
 const status = data => {
 	runCommand('status');
-	console.log('remote called !');
+	// console.log('remote called !');
 };
 
 module.exports = {
