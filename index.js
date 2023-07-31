@@ -56,7 +56,7 @@ const inputCommand = input => {
 
 (async () => {
 	init({ clear });
-	input.includes(`help`) && cli.showHelp(0);
+	input.includes(`tolong`) && cli.showHelp(0);
 	debug && log(flags);
 
 	input && inputCommand(input);

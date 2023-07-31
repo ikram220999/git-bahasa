@@ -32,7 +32,7 @@ const flags = {
 };
 
 const commands = {
-	help: { desc: `Print kambing info` },
+	tolong: { desc: `Print kambing info` },
 	mula: {desc: `Bina git`},
 	status: {desc: `Semak status perubahan`},
 	laku: { desc: `Sahkan perubahan, contoh: [ laku -- -m "laku pertama" ]`},
