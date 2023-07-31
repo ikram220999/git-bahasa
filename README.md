@@ -5,9 +5,9 @@ npm package just for fun
 gim <command> [option]
 
 ## Command
-help: Print kambing info <br/>
-mula:Bina git <br/>
-status:Semak status perubahan
+tolong: Papar bantuan<br/>
+mula: Bina git <br/>
+status: Semak status perubahan <br/>
 laku: Sahkan perubahan, contoh: [ laku -- -m "laku pertama" ] <br/>
 cari: Cari perubahan terbaru <br/>
 tarik: Tarik perubahan terbaru <br/>
